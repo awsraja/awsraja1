@@ -1,7 +1,7 @@
 
 node {
 	stage('test') {
-		sh 'echo hello venkat'
+		sh 'echo hello venkat this text from rajaone file '
 			}
 	}
 
