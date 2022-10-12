@@ -1,0 +1,20 @@
+pipeline {
+    agent linux
+    stages {
+        stage('Checkout and Compile'){
+             steps{
+             }
+        }
+        stage('Unit Tests'){
+             steps{
+             }
+        }
+        stage('Static code analysis'){
+             steps{
+             }
+        }
+        stage('Package'){
+             steps{
+             }
+        }
+    }
