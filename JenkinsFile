@@ -1,20 +1,24 @@
 pipeline {
-    agent linux
+    agent any
     stages {
         stage('Checkout and Compile'){
              steps{
+             echo "hello"
              }
         }
         stage('Unit Tests'){
              steps{
+             echo "hello unit tests"
              }
         }
         stage('Static code analysis'){
              steps{
+             echo "hello static code"
              }
         }
         stage('Package'){
              steps{
+             echo "hello package"
              }
         }
     }
